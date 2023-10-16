@@ -1,8 +1,12 @@
-# React + Vite
+# Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicação web de anotações
 
-Currently, two official plugins are available:
+| :placard: Vitrine.Dev | Notes App |
+| --- | --- |
+| :label: Tecnologias | React, Javascript, Tailwind-CSS |
+| 🟥  Youtube | ![Build a Notes App with React.js (for Beginners)](https://www.youtube.com/watch?v=ulOKYl5sHGk&list=PLYWRR8iVrYwve3AHL5H4uk9PWiYBeOv04&index=11) |
+| Design Inspiration | ![Build a Notes App with JavaScript & Local Storage (No Frameworks)](https://www.youtube.com/watch?v=01YKQmia2Jw&list=PLYWRR8iVrYwve3AHL5H4uk9PWiYBeOv04&index=3&t=890s)
+| 🔗 Link do Projeto | https://url-deploy.com.br |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Imagem](https://github.com/J-Vinicius/cinetag/assets/80431647/77159825-73ad-4e6d-b433-fda46130e60f#vitrinedev)
