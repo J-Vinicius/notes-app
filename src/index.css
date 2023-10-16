@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@layer components {
+    .notes {
+      @apply min-h-screen bg-zinc-900 text-zinc-100 flex flex-col md:flex-row;
+    }
+    .notes__Sidebar {
+      @apply shrink md:flex-shrink-0 overflow-y-auto border-b-2 md:border-b-0 md:border-r-2 border-zinc-500 p-2.5 md:w-72 w-full md:block flex justify-between items-center;
+    }
+    .notes__Preview {
+      @apply flex flex-col flex-grow md:p-8 p-4;
+    }
+    .notes__Add {
+      @apply bg-zinc-700 rounded-md font-bold md:w-full w-fit border-0 text-lg md:mb-4 p-2 hover:bg-zinc-200 hover:text-zinc-600 flex items-center justify-center max-h-fit;
+    }
+    .notes__List {
+      @apply space-y-2;
+    }
+    .notes__List-Item {
+      @apply cursor-pointer p-4 active:bg-zinc-800;
+    }
+    .notes__List-Item--selected {
+      @apply bg-zinc-800 rounded-md font-medium;
+    }
+    .notes__Item-Title {
+      @apply text-xl flex justify-between items-center pb-1;
+    }
+    .notes__Item-Body {
+      @apply pb-2;
+    }
+    .notes__Item-Update {
+      @apply text-gray-500 italic flex justify-end;
+    }
+    .notes__Title {
+      @apply text-3xl font-bold w-full border-0 outline-none placeholder:bg-zinc-900 bg-zinc-900;
+    }
+    .notes__Body {
+      @apply w-full mt-4 text-lg border-0 outline-none flex-grow leading-normal resize-none placeholder:bg-zinc-900 bg-zinc-900;
+    }
+  }
