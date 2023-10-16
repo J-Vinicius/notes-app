@@ -9,4 +9,4 @@ Um aplicação web de anotações
 | Design Inspiration | ![Build a Notes App with JavaScript & Local Storage (No Frameworks)](https://www.youtube.com/watch?v=01YKQmia2Jw&list=PLYWRR8iVrYwve3AHL5H4uk9PWiYBeOv04&index=3&t=890s)
 | 🔗 Link do Projeto | https://url-deploy.com.br |
 
-![Imagem](https://github.com/J-Vinicius/cinetag/assets/80431647/77159825-73ad-4e6d-b433-fda46130e60f#vitrinedev)
+![Imagem](blob:https://vercel.com/1083ac08-87df-4144-97d1-bb3735a5f617#vitrinedev)
